@@ -4,7 +4,7 @@ public class postionofanelementininfinitearray {
                 1, 2, 3, 4, 5, 6, 7, 8, 12, 14, 16, 18,
                 19, 22, 23, 26, 28, 29, 31, 33, 39, 44, 51, 60
         };
-
+        //
         int target = 60;
         System.out.println(findCorrectRange(a, target));
     }
