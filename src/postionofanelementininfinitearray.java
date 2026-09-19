@@ -5,7 +5,7 @@ public class postionofanelementininfinitearray {
                 19, 22, 23, 26, 28, 29, 31, 33, 39, 44, 51, 60
         };
 
-        int target = 7;
+        int target = 60;
         System.out.println(findCorrectRange(a, target));
     }
 
@@ -13,7 +13,7 @@ public class postionofanelementininfinitearray {
         int start = 0;
         int end = 1;
 
-        while (end < a.length && target > a[end]) {
+        while (a[end]<target) {
             int boxSize = end - start + 1;
             start = end + 1;
             end += 2 * boxSize;
