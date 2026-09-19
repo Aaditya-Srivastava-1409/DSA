@@ -19,8 +19,6 @@ public class postionofanelementininfinitearray {
             end += 2 * boxSize;
         }
 
-        end = Math.min(end, a.length - 1);
-
         return binarySearch(a, target, start, end);
     }
 
